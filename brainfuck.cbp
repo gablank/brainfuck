@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="brainfuck" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/anders/C++/brainfuck/brainfuck" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="brainfuck">
+         <Option output="/home/anders/C++/brainfuck/brainfuck/brainfuck" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/anders/C++/brainfuck/brainfuck" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 brainfuck" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="brainfuck/fast">
+         <Option output="/home/anders/C++/brainfuck/brainfuck/brainfuck" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/anders/C++/brainfuck/brainfuck" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 brainfuck/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/anders/C++/brainfuck/brainfuck" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/anders/C++/brainfuck/brainfuck/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/anders/C++/brainfuck/brainfuck/brainfuck.c">
+      </Unit>
+      <Unit filename="/home/anders/C++/brainfuck/brainfuck/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

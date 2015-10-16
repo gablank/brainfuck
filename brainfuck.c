@@ -24,18 +24,23 @@ int main(int argc, char **argv) {
 	
 	int idx = 0;
 	int in;
+    int comment = 0;
 	while(1) {
-		in = getc(file);
-		if(in == EOF) {
-			program[idx] = '&';
-			break;
-		} else if(in == '\n') {
-			continue;
-		}
+        in = getc(file);
 
-		if(valid_char(in)) {
-			program[idx++] = in;
-		}
+        if(in == EOF) {
+            program[idx] = '&';
+            break;
+
+        } else if(in == '\n') {
+            comment = 0;
+
+        } else if(in == '#') {
+            comment = 1;
+
+        } else if(!comment && valid_char(in)) {
+            program[idx++] = in;
+        }
 	}
 	
 	//print_program_code(program);
